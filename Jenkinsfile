@@ -11,7 +11,7 @@ pipeline {
       steps {
         sh echo "This is a test stage."
       }
-      
+       }
        
       }
 }
