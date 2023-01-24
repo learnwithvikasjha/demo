@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       steps {
         echo "this is build stage"
-        echo "$PWD"
+        sh '$PWD/commands.sh'
         shell('echo this is a build stage.')
         sh '$WORKSPACE/commands.sh'
       }
