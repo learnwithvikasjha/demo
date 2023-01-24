@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        git(url: 'https://github.com/learnwithvikasjha/demo', poll: true)
+        shell('echo this is a build stage')
       }
     }
       
